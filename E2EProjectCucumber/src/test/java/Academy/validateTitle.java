@@ -25,6 +25,7 @@ public class validateTitle extends base{
 	
 		 driver =initializeDriver();
 		 log.info("Driver is initialized");
+		 System.out.println("new line is added here");
 			
 		driver.get(prop.getProperty("url"));
 		 log.info("Navigated to Home page");
@@ -41,6 +42,7 @@ public class validateTitle extends base{
 		Assert.assertEquals(l.getTitle().getText(), "FEATURED COURSES");
 		 log.info("Successfully validated Text message");
 		 System.out.println("Test completed");
+		 System.out.println("new another line");
 		 
 		;
 	
