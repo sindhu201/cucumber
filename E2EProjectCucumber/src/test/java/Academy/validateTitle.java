@@ -26,6 +26,8 @@ public class validateTitle extends base{
 		 driver =initializeDriver();
 		 log.info("Driver is initialized");
 		 System.out.println("new line is added here");
+		 System.out.println("second user");
+		 System.out.println("second third line");
 			
 		driver.get(prop.getProperty("url"));
 		 log.info("Navigated to Home page");
